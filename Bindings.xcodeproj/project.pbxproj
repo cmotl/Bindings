@@ -10,6 +10,8 @@
 		827D7866148B204300A2F4F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827D7865148B204300A2F4F5 /* Foundation.framework */; };
 		827D7869148B204300A2F4F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D7868148B204300A2F4F5 /* main.m */; };
 		827D786D148B204300A2F4F5 /* Bindings.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 827D786C148B204300A2F4F5 /* Bindings.1 */; };
+		827D7875148B205D00A2F4F5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 827D7874148B205D00A2F4F5 /* Person.m */; };
+		827D7877148B278100A2F4F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827D7876148B278100A2F4F5 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,11 @@
 		827D7861148B204300A2F4F5 /* Bindings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bindings; sourceTree = BUILT_PRODUCTS_DIR; };
 		827D7865148B204300A2F4F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		827D7868148B204300A2F4F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		827D786B148B204300A2F4F5 /* Bindings-Prefix.pch */ = {isa = PBXFileReference; path = "Bindings-Prefix.pch"; sourceTree = "<group>"; };
+		827D786B148B204300A2F4F5 /* Bindings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bindings-Prefix.pch"; sourceTree = "<group>"; };
 		827D786C148B204300A2F4F5 /* Bindings.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bindings.1; sourceTree = "<group>"; };
+		827D7873148B205D00A2F4F5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		827D7874148B205D00A2F4F5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		827D7876148B278100A2F4F5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827D7877148B278100A2F4F5 /* Cocoa.framework in Frameworks */,
 				827D7866148B204300A2F4F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +54,7 @@
 		827D7856148B204300A2F4F5 = {
 			isa = PBXGroup;
 			children = (
+				827D7876148B278100A2F4F5 /* Cocoa.framework */,
 				827D7867148B204300A2F4F5 /* Bindings */,
 				827D7864148B204300A2F4F5 /* Frameworks */,
 				827D7862148B204300A2F4F5 /* Products */,
@@ -76,6 +83,8 @@
 				827D7868148B204300A2F4F5 /* main.m */,
 				827D786C148B204300A2F4F5 /* Bindings.1 */,
 				827D786A148B204300A2F4F5 /* Supporting Files */,
+				827D7873148B205D00A2F4F5 /* Person.h */,
+				827D7874148B205D00A2F4F5 /* Person.m */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -139,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				827D7869148B204300A2F4F5 /* main.m in Sources */,
+				827D7875148B205D00A2F4F5 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
